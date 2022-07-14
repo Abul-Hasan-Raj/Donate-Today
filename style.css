@@ -1,0 +1,210 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Lobster', cursive;
+    font-size: 16px;
+    font-weight: 400;
+    color: #ff5959;
+}
+
+h1,
+h2,
+h3,
+h4 {
+    font-family: 'Lobster', cursive;
+    font-weight: 700;
+    color: #0a0461;
+}
+
+h2 {
+    font-size: 45px;
+}
+
+h3 {
+    font-family: 'Lobster', cursive;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+h2,
+p {
+    margin-bottom: 20px;
+}
+
+.Rani {
+    width: 85%;
+    margin: 0 auto;
+}
+
+.row {
+    display: flex;
+}
+
+.one-third-width {
+    width: 32%;
+    padding: 0 0.66%;
+    box-sizing: border-box;
+}
+
+.text-center {
+    text-align: center;
+}
+
+/* hero part start */
+.raj {
+    min-height: 100vh;
+    background-image: url("images/donation8.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.common-box {
+    margin: 0 auto;
+    width: 75%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.raj-text h1 {
+    margin-bottom: 20px;
+    font-size: 65px;
+    color: #ffffff;
+}
+
+.raj-text p {
+    color: #ffffff;
+}
+
+.btn {
+    font-family: 'Lobster', cursive;
+    text-decoration: none;
+    padding: 15px 25px;
+    color: #ffffff;
+    background-color: #ff5959;
+    font-size: 20px;
+    font-weight: 700;
+    border-radius: 5px;
+}
+
+/* hero part end */
+
+/* donate part start */
+
+.amount {
+    width: 100%;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.amount li {
+    font-family: 'Lobster', cursive;
+    font-size: 30px;
+    font-weight: 700;
+    list-style-type: none;
+    width: 136px;
+    height: 80px;
+    text-align: center;
+    line-height: 80px;
+}
+
+.amount li.active {
+    color: #ff5959;
+    border: 1px solid #ff5959;
+    background-color: #ffeeee;
+    border-radius: 5px;
+}
+
+.donate-form {
+    margin-top: 50px;
+    width: 100%;
+}
+
+.donate_input input {
+    padding: 15px 0px;
+    width: 100%;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #03b621;
+}
+
+.donate_input input::placeholder {
+    font-family: 'Lobster', cursive;
+    font-size: 18px;
+    font-weight: 400;
+    color: #b3b3b3;
+    text-align: center;
+}
+
+.btn-submit {
+    margin-top: 20px;
+    border: none;
+    cursor: pointer;
+}
+
+/* donate part end */
+
+/* donate plan part start */
+.donate-plan {
+    padding-bottom: 50px;
+}
+
+.donate-plan-text {
+    width: 100%;
+}
+
+.donate-plan-box {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.card-content {
+    box-sizing: border-box;
+    background-color: #05b6fc34;
+    min-height: 352px;
+    padding: 0px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 5px;
+}
+
+.card-content.active {
+    background-color: rgba(79, 157, 166, 0.1);
+}
+
+.card-content img {
+    width: 50px;
+    margin-bottom: 20px;
+}
+
+.card-content p {
+    margin: 0;
+}
+
+/* donate plane part end */
+
+.footer {
+    padding: 40px 0;
+    background-color: #ff5959;
+}
+
+.footer h1 {
+    margin-bottom: 25px;
+    font-family: "Lobster", cursive;
+    font-size: 36px;
+    font-weight: 400;
+    color: #5408b8;
+}
+
+.footer p {
+    color: #d9dbe1;
+}
